@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+
+backend:
+
+image: wpy20232097/234-deploylab-backend:latest
+
+pull_policy: always
+
+ports:
+
+- "8085:8080"
